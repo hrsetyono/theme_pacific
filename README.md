@@ -10,7 +10,11 @@ Inspired by Codecademy.com Editor.
 Installation
 -------------------
 
-1. Download the 
+1. Download the file [here](https://github.com/hrsetyono/theme_blackboard/archive/1.0.zip)
+
+2. In Sublime, go to `Preferences > Browse Package`.
+
+3. Extract the zip there and rename the folder to `Theme - Blackboard`. Then set it up with the guide below:
 
 **Setting up the Theme**:
 
