@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  color: white;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+  .menu a:hover {
+    color: #ccc;
+  }
+
+#blog {
+  border: 1px dotted #333;
+  box-shadow: 1px 1px 3px rgba(black, .3);
+}
+
+@media only screen and (max-width: 960px) {
+  #blog {
+    border: transparent;
+  }
+}
