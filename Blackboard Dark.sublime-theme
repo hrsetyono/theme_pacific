@@ -215,7 +215,7 @@
     "layer0.texture": "",
     "layer0.tint": [47, 59, 67],
     "layer0.opacity": 1.0,
-    "layer0.inner_margin": [2, 6],
+    "layer0.inner_margin": [2, 4],
     "blur": false
   },
   // Standard horizontal scroll bar
@@ -224,7 +224,7 @@
     "attributes": ["horizontal"],
     "layer0.texture": "",
     "layer0.tint": [47, 59, 67],
-    "layer0.inner_margin": [6, 2],
+    "layer0.inner_margin": [4, 2],
     "blur": false
   },
   // Standard scroll bar corner
@@ -242,7 +242,7 @@
     "layer0.tint": [91, 121, 140],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [0, 10],
-    "content_margin": [6, 12],
+    "content_margin": [4, 12],
     "blur": false
   },
   // Standard horizontal scroll puck
@@ -252,7 +252,7 @@
     "layer0.texture": "",
     "layer0.tint": [91, 121, 140],
     "layer0.inner_margin": [10, 0],
-    "content_margin": [12, 6],
+    "content_margin": [12, 4],
     "blur": false
   },
 
@@ -662,7 +662,7 @@
   // Text input dropdown
   {
     "class": "dropdown_button_control",
-    "content_margin": [8, 8],
+    "content_margin": [10, 10],
     "layer0.texture": "Theme - Blackboard/dark/textfield-list.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [4, 4]
@@ -757,14 +757,14 @@
   },
 //
 // CODE COMPLETION DROPDOWN
-//a
+//
   {
     "class": "popup_control",
     "layer0.texture": "",
-    "layer0.tint": [42, 48, 52],
+    "layer0.tint": [47, 59, 67],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [2, 2],
-    "content_margin": [4, 4],
+    "content_margin": [0, 0],
   },
   {
     "class": "auto_complete",
@@ -780,7 +780,7 @@
   {
     "class": "table_row",
     "layer0.texture": "",
-    "layer0.tint": [47, 59, 67],
+    "layer0.tint": [42, 48, 52],
     "layer0.opacity": 0.0,
     "layer0.inner_margin": [3, 1]
   },
@@ -857,6 +857,11 @@
     "layer0.opacity": 1.0,
     "content_margin": [9, 9]
   },
+  {
+    "class": "icon_regex",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "Theme - Blackboard/dark/icon-regex-on.png"
+  },
   // Case sensitive search button
   {
     "class": "icon_case",
@@ -864,12 +869,22 @@
     "layer0.opacity": 1.0,
     "content_margin": [9, 9]
   },
+  {
+    "class": "icon_case",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "Theme - Blackboard/dark/icon-case-on.png"
+  },
   // Match whole word search button
   {
     "class": "icon_whole_word",
     "layer0.texture": "Theme - Blackboard/dark/icon-word.png",
     "layer0.opacity": 1.0,
     "content_margin": [9, 9]
+  },
+  {
+    "class": "icon_whole_word",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "Theme - Blackboard/dark/icon-word-on.png"
   },
 
 //
@@ -883,12 +898,22 @@
     "layer0.opacity": 1.0,
     "content_margin": [9, 9]
   },
+  {
+    "class": "icon_context",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "Theme - Blackboard/dark/icon-context-on.png"
+  },
   // Use search buffer
   {
     "class": "icon_use_buffer",
     "layer0.texture": "Theme - Blackboard/dark/icon-buffer.png",
     "layer0.opacity": 1.0,
     "content_margin": [9, 9]
+  },
+  {
+    "class": "icon_use_buffer",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "Theme - Blackboard/dark/icon-buffer-on.png"
   },
 
 //
@@ -902,6 +927,11 @@
     "layer0.opacity": 1.0,
     "content_margin": [9, 9]
   },
+  {
+    "class": "icon_reverse",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "Theme - Blackboard/dark/icon-reverse-on.png"
+  },
   // Search wrap button
   {
     "class": "icon_wrap",
@@ -909,12 +939,22 @@
     "layer0.opacity": 1.0,
     "content_margin": [9, 9]
   },
+  {
+    "class": "icon_wrap",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "Theme - Blackboard/dark/icon-wrap-on.png"
+  },
   // Search in selection button
   {
     "class": "icon_in_selection",
     "layer0.texture": "Theme - Blackboard/dark/icon-selection.png",
     "layer0.opacity": 1.0,
     "content_margin": [9, 9]
+  },
+  {
+    "class": "icon_in_selection",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "Theme - Blackboard/dark/icon-selection-on.png"
   },
 
 //
@@ -928,6 +968,11 @@
     "layer0.opacity": 1.0,
     "content_margin": [9, 9]
   },
+  {
+    "class": "icon_preserve_case",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "Theme - Blackboard/dark/icon-preserve-on.png"
+  },
 
 //
 // BOTTOM PANEL ICONS - GROUP 4
@@ -939,5 +984,10 @@
     "layer0.texture": "Theme - Blackboard/dark/icon-highlight.png",
     "layer0.opacity": 1.0,
     "content_margin": [9, 9]
+  },
+  {
+    "class": "icon_highlight",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "Theme - Blackboard/dark/icon-highlight-on.png"
   },
 ]
