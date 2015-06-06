@@ -3,15 +3,17 @@ body {
   padding: 0;
 }
 
+@color: #333;
+
 .menu a {
   color: white;
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
-}
 
-  .menu a:hover {
+  &:hover {
     color: #ccc;
   }
+}
 
 #blog {
   border: 1px dotted #333;

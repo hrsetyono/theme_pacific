@@ -6,16 +6,16 @@ A theme inspired from Codecademy.com editor. Minimally-designed to let you focus
 Screenshot
 ------------------
 
-![Blackboard Dark - HTML](http://cdn.setyono.net/blackboard/dark-markup.jpg)
+![Blackboard Dark - HTML](http://cdn.setyono.net/blackboard/dark-index.jpg)
 
-![Blackboard Dark - Quick Panel](http://cdn.setyono.net/blackboard/dark-quickpanel.jpg)
+![Blackboard Dark - Overlay](http://cdn.setyono.net/blackboard/dark-overlay.jpg)
 
 Installation
 -------------------
 
 This theme is still a work in progress, thus not available in *Package Control*. Manually install by following these steps:
 
-1. Download the file [here](https://github.com/hrsetyono/theme_blackboard/archive/1.1.zip)
+1. Download the file [here](https://github.com/hrsetyono/theme_blackboard/archive/1.2.zip)
 
 2. In Sublime, go to `Preferences > Browse Package`.
 

@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,7 +7,7 @@
 </head>
 <body>
   <!-- Main Content -->
-  <article class="hello">
+  <article class="hello" id="world">
     <h1>Hello World</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, fugiat, reprehenderit eligendi ea amet eaque quasi iure numquam accusantium nulla itaque dolore tenetur nisi nihil at.

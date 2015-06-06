@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Sublime Widgets</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#2a3034</string>
+				<key>caret</key>
+				<string>#b0bec5</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+				<key>invisibles</key>
+				<string>#bfbfbf</string>
+				<key>lineHighlight</key>
+				<string>#00000012</string>
+				<key>selection</key>
+				<string>#354551</string>
+				<key>selectionBorder</key>
+				<string>#354551</string>
+				<key>selectionForeground</key>
+				<string>#ffffff</string>
+				<key>inactiveSelection</key>
+				<string>#354551</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
