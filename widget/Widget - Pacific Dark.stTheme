@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Sublime Widgets</string>
+	<string>Pacific - Widget Theme</string>
+	<key>author</key>
+	<string>Henner Setyono (setyono.net)</string>
+	<key>comment</key>
+	<string>A widget theme for the UI components of the Pacific theme.</string>
 	<key>settings</key>
 	<array>
 		<dict>

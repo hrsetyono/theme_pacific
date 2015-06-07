@@ -67,7 +67,7 @@
   {
     "class": "tab_close_button",
     "content_margin": [0, 0],
-    "layer0.texture": "Theme - Blackboard/dark/tab-close.png",
+    "layer0.texture": "Theme - Pacific/dark/tab-close.png",
     "layer0.opacity": 0.0,
     "layer0.inner_margin": 0
   },
@@ -79,26 +79,26 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-    "layer0.texture": "Theme - Blackboard/dark/tab-close.png",
+    "layer0.texture": "Theme - Pacific/dark/tab-close.png",
     "layer0.opacity": 0.85
   },
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "layer0.texture": "Theme - Blackboard/dark/tab-close.png",
+    "layer0.texture": "Theme - Pacific/dark/tab-close.png",
     "layer0.opacity": 0.0
   },
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["hover", "selected"]}],
-    "layer0.texture": "Theme - Blackboard/dark/tab-close.png",
+    "layer0.texture": "Theme - Pacific/dark/tab-close.png",
     "layer0.opacity": 0.85
   },
   // Tab dirty button
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-    "layer0.texture": "Theme - Blackboard/dark/tab-dirty.png",
+    "layer0.texture": "Theme - Pacific/dark/tab-dirty.png",
     "layer0.opacity": 0.3
   },
   {
@@ -117,14 +117,14 @@
     "class": "tab_close_button",
     "settings": ["show_tab_close_buttons"],
     "attributes": ["hover"],
-    "layer0.texture": "Theme - Blackboard/dark/tab-close-hover.png"
+    "layer0.texture": "Theme - Pacific/dark/tab-close-hover.png"
   },
   // Tab close button pressed
   {
     "class": "tab_close_button",
     "settings": ["show_tab_close_buttons"],
     "attributes": ["pressed"],
-    "layer0.texture": "Theme - Blackboard/dark/tab-close-pressed.png"
+    "layer0.texture": "Theme - Pacific/dark/tab-close-pressed.png"
   },
 
 //
@@ -161,7 +161,7 @@
   {
     "class": "scroll_tabs_left_button",
     "content_margin": [12, 6, 12, 6],
-    "layer0.texture": "Theme - Blackboard/dark/tab-left.png",
+    "layer0.texture": "Theme - Pacific/dark/tab-left.png",
     "layer0.opacity": { "target": 0.3, "speed": 6.0, "interpolation": "smoothstep" },
     "layer0.inner_margin": 0
   },
@@ -174,7 +174,7 @@
   {
     "class": "scroll_tabs_right_button",
     "content_margin": [12, 6, 12, 6],
-    "layer0.texture": "Theme - Blackboard/dark/tab-right.png",
+    "layer0.texture": "Theme - Pacific/dark/tab-right.png",
     "layer0.opacity": { "target": 0.3, "speed": 6.0, "interpolation": "smoothstep" },
     "layer0.inner_margin": 0
   },
@@ -187,7 +187,7 @@
   {
     "class": "show_tabs_dropdown_button",
     "content_margin": [12, 12],
-    "layer0.texture": "Theme - Blackboard/dark/tab-menu.png",
+    "layer0.texture": "Theme - Pacific/dark/tab-menu.png",
     "layer0.opacity": { "target": 0.3, "speed": 6.0, "interpolation": "smoothstep" },
     "layer0.inner_margin": 0
   },
@@ -203,7 +203,7 @@
 
   {
     "class": "fold_button_control",
-    "layer0.texture": "Theme - Blackboard/dark/fold-closed.png",
+    "layer0.texture": "Theme - Pacific/dark/fold-closed.png",
     "layer0.opacity": 0.3,
     "layer0.inner_margin": 0,
     "content_margin": [10, 10]
@@ -217,7 +217,7 @@
     "class": "fold_button_control",
     "attributes": ["expanded"],
     "layer0.opacity": 0.3,
-    "layer0.texture": "Theme - Blackboard/dark/fold-open.png"
+    "layer0.texture": "Theme - Pacific/dark/fold-open.png"
   },
   {
     "class": "fold_button_control",
@@ -418,10 +418,10 @@
   // Tooltip container
   {
     "class": "tool_tip_control",
-    "layer0.texture": "Theme - Blackboard/dark/tooltip.png",
+    "layer0.texture": "Theme - Pacific/dark/tooltip.png",
     "layer0.inner_margin": [2, 2],
     "layer0.opacity": 1,
-    "content_margin": [10, 4]
+    "content_margin": [10, 6]
   },
   // Tooltip content
   {
@@ -603,27 +603,27 @@
   {
     "class": "disclosure_button_control",
     "content_margin": [8, 8],
-    "layer0.texture": "Theme - Blackboard/dark/folder-closed.png",
+    "layer0.texture": "Theme - Pacific/dark/folder-closed.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": 0
   },
   {
     "class": "disclosure_button_control",
     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-    "layer0.texture": "Theme - Blackboard/dark/folder-closed-hover.png"
+    "layer0.texture": "Theme - Pacific/dark/folder-closed-hover.png"
   },
 
   // Sidebar folder open
   {
     "class": "disclosure_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "Theme - Blackboard/dark/folder-open.png"
+    "layer0.texture": "Theme - Pacific/dark/folder-open.png"
   },
   {
     "class": "disclosure_button_control",
     "attributes": ["expanded"],
     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-    "layer0.texture": "Theme - Blackboard/dark/folder-open-hover.png"
+    "layer0.texture": "Theme - Pacific/dark/folder-open-hover.png"
   },
 
 
@@ -670,17 +670,17 @@
   // Text input field item
   {
     "class": "text_line_control",
-    "layer0.texture": "Theme - Blackboard/dark/textfield.png",
+    "layer0.texture": "Theme - Pacific/dark/textfield.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [4, 5, 4, 3],
-    "content_margin": [6, 4, 4, 2]
+    "content_margin": [6, 6, 4, 2]
   },
 
   // Text line for quick panel
   {
     "class": "text_line_control",
     "parents": [{"class": "overlay_control"}],
-    "layer0.texture": "Theme - Blackboard/dark/textfield-overlay.png",
+    "layer0.texture": "Theme - Pacific/dark/textfield-overlay.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [32, 2, 32, 2],
     "layer0.draw_center": true,
@@ -691,7 +691,7 @@
   {
     "class": "dropdown_button_control",
     "content_margin": [10, 10],
-    "layer0.texture": "Theme - Blackboard/dark/textfield-list.png",
+    "layer0.texture": "Theme - Pacific/dark/textfield-list.png",
     "layer0.opacity": { "target": 0.3, "speed": 6.0, "interpolation": "smoothstep" },
     "layer0.inner_margin": [4, 4]
   },
@@ -718,7 +718,7 @@
   // Quick panel background
   {
     "class": "overlay_control",
-    "layer0.texture": "Theme - Blackboard/dark/quick-panel-background.png",
+    "layer0.texture": "Theme - Pacific/dark/quick-panel-background.png",
     "layer0.inner_margin": [10, 5, 5, 10],
     "layer0.opacity": 1.0,
     "content_margin": [12, 7, 12, 17]
@@ -730,7 +730,7 @@
 
   {
     "class": "quick_panel",
-    "row_padding": [32, 8],
+    "row_padding": [32, 6],
     "layer0.tint": [42, 48, 52],
     "layer0.opacity": 1.0
   },
@@ -845,7 +845,7 @@
   // Regex search button
   {
     "class": "icon_regex",
-    "layer0.texture": "Theme - Blackboard/dark/icon-regex.png",
+    "layer0.texture": "Theme - Pacific/dark/icon-regex.png",
     "layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [10, 10]
   },
@@ -857,7 +857,7 @@
   // Case sensitive search button
   {
     "class": "icon_case",
-    "layer0.texture": "Theme - Blackboard/dark/icon-case.png",
+    "layer0.texture": "Theme - Pacific/dark/icon-case.png",
     "layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [10, 10]
   },
@@ -869,7 +869,7 @@
   // Match whole word search button
   {
     "class": "icon_whole_word",
-    "layer0.texture": "Theme - Blackboard/dark/icon-word.png",
+    "layer0.texture": "Theme - Pacific/dark/icon-word.png",
     "layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [10, 10]
   },
@@ -886,7 +886,7 @@
   // Show search context button
   {
     "class": "icon_context",
-    "layer0.texture": "Theme - Blackboard/dark/icon-context.png",
+    "layer0.texture": "Theme - Pacific/dark/icon-context.png",
     "layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [10, 10]
   },
@@ -898,7 +898,7 @@
   // Use search buffer
   {
     "class": "icon_use_buffer",
-    "layer0.texture": "Theme - Blackboard/dark/icon-buffer.png",
+    "layer0.texture": "Theme - Pacific/dark/icon-buffer.png",
     "layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [10, 10]
   },
@@ -915,7 +915,7 @@
   // Reverse search direction button
   {
     "class": "icon_reverse",
-    "layer0.texture": "Theme - Blackboard/dark/icon-reverse.png",
+    "layer0.texture": "Theme - Pacific/dark/icon-reverse.png",
     "layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [10, 10]
   },
@@ -927,7 +927,7 @@
   // Search wrap button
   {
     "class": "icon_wrap",
-    "layer0.texture": "Theme - Blackboard/dark/icon-wrap.png",
+    "layer0.texture": "Theme - Pacific/dark/icon-wrap.png",
     "layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [10, 10]
   },
@@ -939,7 +939,7 @@
   // Search in selection button
   {
     "class": "icon_in_selection",
-    "layer0.texture": "Theme - Blackboard/dark/icon-selection.png",
+    "layer0.texture": "Theme - Pacific/dark/icon-selection.png",
     "layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [10, 10]
   },
@@ -956,7 +956,7 @@
   // Preserve case button
   {
     "class": "icon_preserve_case",
-    "layer0.texture": "Theme - Blackboard/dark/icon-preserve.png",
+    "layer0.texture": "Theme - Pacific/dark/icon-preserve.png",
     "layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [10, 10]
   },
@@ -973,7 +973,7 @@
   // Highlight results button
   {
     "class": "icon_highlight",
-    "layer0.texture": "Theme - Blackboard/dark/icon-highlight.png",
+    "layer0.texture": "Theme - Pacific/dark/icon-highlight.png",
     "layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [10, 10]
   },

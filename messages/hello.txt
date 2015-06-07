@@ -1,0 +1,19 @@
+Welcome!
+
+Thank you for installing Pacific theme. Follow the guide below on how to set it up.
+
+-----Installation Guide-----
+
+To apply this theme, open "Preference > Setting-User" and add these codes in the comma-separated list:
+
+    "color_scheme": "Packages/Theme - Pacific/Pacific Dark.tmTheme",
+
+    "theme": "Pacific Dark.sublime-theme"
+
+---
+
+For more detail, check out https://github.com/hrsetyono/theme_pacific
+
+Thank you,
+Henner S
+http://setyono.net

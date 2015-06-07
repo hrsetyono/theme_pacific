@@ -16,9 +16,9 @@ Comment 	#5b798c
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Blackboard Dark</string>
+	<string>Pacific Dark</string>
 	<key>semanticClass</key>
-	<string>theme.dark.blackboard_dark</string>
+	<string>theme.dark.pacific_dark</string>
 	<key>author</key>
 	<string>Henner Setyono (setyono.net)</string>
 	<key>comment</key>
