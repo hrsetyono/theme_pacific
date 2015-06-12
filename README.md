@@ -43,7 +43,7 @@ Manual Install
 
 If the Package Control somehow does not work, you can install it manually:
 
-1. Download the file [here](https://github.com/hrsetyono/theme_pacific/archive/1.3.zip)
+1. Download the file [here](https://github.com/hrsetyono/theme_pacific/releases)
 
 2. In Sublime, go to `Preferences → Browse Package`.
 
