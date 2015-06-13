@@ -12,6 +12,10 @@ Screenshot
 
 ![Pacific Dark - Overlay](http://cdn.setyono.net/pacific/dark-overlay.jpg)
 
+Comes with highly-requested JSON highlighter:
+
+![Pacific Dark - JSON](http://cdn.setyono.net/pacific/dark-json.jpg)
+
 Installation
 -------------------
 
@@ -23,7 +27,7 @@ Installation
 
 **Setting up the Theme**:
 
-Go to `Preferences → Setting - User`
+Go to `Preferences > Setting - User`
 
 It will open a text file. Add the following line to the comma-separated list
 
@@ -45,7 +49,7 @@ If the Package Control somehow does not work, you can install it manually:
 
 1. Download the file [here](https://github.com/hrsetyono/theme_pacific/releases)
 
-2. In Sublime, go to `Preferences → Browse Package`.
+2. In Sublime, go to `Preferences > Browse Package`.
 
 3. Extract the zip there and **rename** the folder to `Theme - Pacific`.
 
@@ -63,3 +67,5 @@ With inspiration from:
 - [Codecademy](http://codecademy.com/)
 
 - [Material Theme](https://github.com/equinusocio/material-theme)
+
+- [Neon Color Scheme](https://github.com/MattDMo/Neon-color-scheme)

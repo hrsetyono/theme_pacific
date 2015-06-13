@@ -1,0 +1,24 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+  <!-- Main Content -->
+  <h-row class="hello" id="world" data-name="asd">
+    <h1>Hello World</h1>
+    <ul class="gallery">
+    {% for p in photos %}
+      <li>
+        <img src="{{ p.url }}" rel="{{ p.caption }}">
+      </li>
+    {% endfor %}
+    </ul>
+
+    <h1>{{ post.title }}</h1>
+  
+    {{ post.content }}
+
+    <time>
+      Written on {{ post.date | date("m/d/Y") }}
+    </time>
+  </h-row>
+
+{% endblock %}

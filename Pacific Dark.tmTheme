@@ -133,7 +133,7 @@ Comment 	#5b798c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c5e88c</string>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -702,17 +702,6 @@ Comment 	#5b798c
 			<string>JS: {}</string>
 			<key>scope</key>
 			<string>meta.brace.curly.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ffffff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSON String</string>
-			<key>scope</key>
-			<string>meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1845,6 +1834,405 @@ Comment 	#5b798c
 			<dict>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+	<!-- JSON -->
+	<!--
+	  <dict>
+			<key>name</key>
+			<string>JSON - 18 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 17 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a4cccb</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 16 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 15 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff8973</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 14 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 13 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffe083</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 12 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 11 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c5e88c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 10 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 9 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a4cccb</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 8 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 7 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff8973</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 6 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 5 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffe083</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 4 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 3 deep</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c5e88c</string>
+			</dict>
+		</dict>
+	-->
+		<dict>
+			<key>name</key>
+			<string>JSON: Value 10</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.value.json string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Key 10</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c5e88c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Value 9</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.value.json string, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.value.json string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Key 9</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a4cccb</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Value 8</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.value.json string, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.value.json string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Key 8</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff8973</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Value 7</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.value.json string, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.value.json string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Key 7</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffe083</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Value 6</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.value.json string, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.value.json string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Key 6</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c5e88c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Value 5</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta.structure.dictionary.value.json string, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.value.json string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Key 5</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta.structure.dictionary string, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a4cccb</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Value 4</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta.structure.dictionary.value.json string, source.json meta meta meta meta meta meta meta meta meta.structure.dictionary.value.json string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Key 4</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta.structure.dictionary string, source.json meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff8973</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Value 3</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta.structure.dictionary.value.json string, source.json meta meta meta meta meta meta.structure.dictionary.value.json string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Key 3</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta.structure.dictionary string, source.json meta meta meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffe083</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Value 2</string>
+			<key>scope</key>
+			<string>source.json meta meta meta.structure.dictionary.value.json string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Key 2</string>
+			<key>scope</key>
+			<string>source.json meta meta meta.structure.dictionary string, source.json meta meta meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c5e88c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Value 1</string>
+			<key>scope</key>
+			<string>source.json meta meta.structure.dictionary.value.json string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Key 1</string>
+			<key>scope</key>
+			<string>source.json meta.structure.dictionary string, source.json meta meta.structure.dictionary string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a4cccb</string>
 			</dict>
 		</dict>
 	</array>

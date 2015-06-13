@@ -1,0 +1,56 @@
+{
+  "tweets": [
+    {
+      "message": "Hello World",
+      "date": "2015-05-02",
+    },
+    {
+      "message": "This is a test",
+      "date": "2015-06-12",
+    },
+  ],
+
+  "account": {
+    "username": "johndoe",
+    "premium": true,
+    "profile": {
+      "name": {
+        "first": "John",
+        "last": "Doe"
+      },
+      "country": "Indonesia"
+    },
+  },
+
+
+  // For debugging
+  "Level 1": "Hello World",
+  "go": {
+    "Level 2": "The highlighting",
+    "go": {
+      "Level 3": "Works until",
+      "go": {
+        "Level 4": "Level 10",
+        "go": {
+          "Level 5": "---5---",
+          "go": {
+            "Level 6": "---6---",
+            "go": {
+              "Level 7": "---7---",
+              "go": {
+                "Level 8": "---8---",
+                "go": {
+                  "Level 9": "---9---",
+                  "go": {
+                    "Level 10": "only works if JSON started with curly bracket",
+                    "go": false
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+}
