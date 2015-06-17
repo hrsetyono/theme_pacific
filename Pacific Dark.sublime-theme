@@ -1,11 +1,12 @@
 // COLOR GUIDE
 // Background  #354551 [53, 69, 81]
 // Sidebar     #2f3b43 [47, 59, 67]
-// Top Bar     #2a3034 [42, 48, 52]
+// Other Bar   #2a3034 [42, 48, 52]
 
-// Font        #5b798c [91, 121, 140]
-// Font Light  #7298b0 [108, 143, 166]
-// Highlight   #39d1b4 [57, 209, 180]
+// Font Dark   #5b798c [91, 121, 140]
+// Font        #7298b0 [108, 143, 166]
+// Font Light  #7ba3bd [123, 163, 189]
+// Highlight   #80cbc4 [128, 203, 196]
 
 // Icon        #fbb03b [251, 176, 59]
 
@@ -495,7 +496,7 @@
   // Sidebar heading
   {
     "class": "sidebar_heading",
-    "color": [91, 121, 140],
+    "color": [108, 143, 166],
     "font.bold": false,
     "shadow_color": [250, 250, 250],
     "shadow_offset": [0, 0],
@@ -503,7 +504,7 @@
   // Sidebar entry
   {
     "class": "sidebar_label",
-    "color": [108, 143, 166],
+    "color": [123, 163, 189],
     "shadow_color": [255, 255, 255],
     "shadow_offset": [0, 0],
     "font.size": 13
