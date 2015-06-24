@@ -14,15 +14,15 @@ Screenshot
 
 More samples:
 
-- [JSON]((http://cdn.setyono.net/pacific/sample-json.jpg)
+- [JSON](http://cdn.setyono.net/pacific/sample-json.jpg)
 
-- [HTML]((http://cdn.setyono.net/pacific/sample-html.jpg)
+- [HTML](http://cdn.setyono.net/pacific/sample-html.jpg)
 
-- [CSS with Sass]((http://cdn.setyono.net/pacific/sample-css.jpg)
+- [CSS with Sass](http://cdn.setyono.net/pacific/sample-css.jpg)
 
-- [JavaScript]((http://cdn.setyono.net/pacific/sample-javascript.jpg)
+- [JavaScript](http://cdn.setyono.net/pacific/sample-javascript.jpg)
 
-- [PHP]((http://cdn.setyono.net/pacific/sample-php.jpg)
+- [PHP](http://cdn.setyono.net/pacific/sample-php.jpg)
 
 - [Ruby](http://cdn.setyono.net/pacific/sample-ruby.jpg)
 
