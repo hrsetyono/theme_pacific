@@ -181,7 +181,7 @@ Comment 	#5b798c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> underline</string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#c5e88c</string>
 			</dict>
@@ -194,7 +194,7 @@ Comment 	#5b798c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic underline</string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#c5e88c</string>
 			</dict>
@@ -285,7 +285,7 @@ Comment 	#5b798c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#a4cccb</string>
+				<string>#ffffff</string>
 				<key>fontStyle</key>
 				<string> italic </string>
 			</dict>
@@ -314,13 +314,35 @@ Comment 	#5b798c
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String.regexp</string>
+			<string>Regexp: String</string>
 			<key>scope</key>
-			<string>string.regexp</string>
+			<string>string.regexp, keyword.operator.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffe083</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regexp: Punctuation</string>
+			<key>scope</key>
+			<string>string.regexp punctuation.definition.string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#e7a358</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regexp: Escape</string>
+			<key>scope</key>
+			<string>string.regexp constant.character.escape</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffe083</string>
 			</dict>
 		</dict>
 		<dict>
@@ -355,7 +377,7 @@ Comment 	#5b798c
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#c5e88c</string>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -441,6 +463,28 @@ Comment 	#5b798c
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Twig: Keyword</string>
+			<key>scope</key>
+			<string>keyword.control.twig, keyword.operator.arithmetic.twig, keyword.operator.assignment.twig, keyword.operator.comparison.twig, keyword.operator.bitwise.twig, keyword.operator.logical.twig, keyword.operator.other.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a4cccb</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig: Tags</string>
+			<key>scope</key>
+			<string>punctuation.section.tag.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Handlebars: Variable</string>
 			<key>scope</key>
 			<string>variable.parameter.handlebars</string>
@@ -501,10 +545,8 @@ Comment 	#5b798c
 			<string>support.type.property-name.css</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string> italic</string>
-				<key>foreground</key>
-				<string>#ffffff</string>
+				<key>fontStyle</key><string>italic</string>
+				<key>foreground</key><string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -577,6 +619,28 @@ Comment 	#5b798c
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>SCSS: Mixin Parameter</string>
+			<key>scope</key>
+			<string>source.scss variable.other.root</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e7a358</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCSS: Mixin Call</string>
+			<key>scope</key>
+			<string>support.function.name.sass.library</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>LESS variables</string>
 			<key>scope</key>
 			<string>variable.other.less</string>
@@ -627,6 +691,19 @@ Comment 	#5b798c
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>JS: Function Call</string>
+			<key>scope</key>
+			<string>support.function.dom.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#a4cccb</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>JS: Storage Type</string>
 			<key>scope</key>
 			<string>storage.type.js</string>
@@ -645,8 +722,6 @@ Comment 	#5b798c
 			<string>text.html.basic source.js.embedded.html</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#ffffff</string>
 			</dict>
@@ -745,7 +820,7 @@ Comment 	#5b798c
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP: Array Construct</string>
+			<string>PHP: Construct</string>
 			<key>scope</key>
 			<string>support.function.construct.php</string>
 			<key>settings</key>
@@ -789,50 +864,75 @@ Comment 	#5b798c
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP: ::</string>
+			<string>PHP: Other Property</string>
 			<key>scope</key>
-			<string>support.class.php</string>
+			<string>variable.other.property.php, constant.other.php</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string> italic</string>
 				<key>foreground</key>
 				<string>#a4cccb</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP: Other Property</string>
+			<string>PHP: Dot Operator</string>
 			<key>scope</key>
-			<string>variable.other.property.php</string>
+			<string>keyword.operator.string.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e7a358</string>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP: Class</string>
+			<string>PHP: -> :: Operator</string>
 			<key>scope</key>
-			<string>storage.modifier.extends.php, storage.type.class.php, keyword.operator.class.php</string>
+			<string>keyword.operator.class.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#ff8973</string>
 			</dict>
 		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>PHP: Class</string>
+			<key>scope</key>
+			<string>storage.modifier.extends.php, storage.type.class.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#ff8973</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Class Name</string>
+			<key>scope</key>
+			<string>entity.name.type.class.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>		
 		<dict>
 			<key>name</key>
 			<string>PHP: Inherited Class</string>
 			<key>scope</key>
-			<string>meta.other.inherited-class.php</string>
+			<string>entity.other.inherited-class.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#a4cccb</string>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -857,22 +957,12 @@ Comment 	#5b798c
 				<string>#c5e88c</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP: Function Construct</string>
-			<key>scope</key>
-			<string>support.function.construct.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#a4cccb</string>
-			</dict>
-		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>PHP: Function Call</string>
 			<key>scope</key>
-			<string>entity.name.type.class.php, meta.function-call.php, meta.function-call.static.php, meta.function-call.object.php</string>
+			<string>entity.name.type.class.php, meta.function-call.php, meta.function-call.static.php, meta.function-call.object.php, source.php.embedded.block.html support.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -886,8 +976,6 @@ Comment 	#5b798c
 			<string>keyword.other.phpdoc</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#5b798c</string>
 			</dict>
@@ -988,13 +1076,50 @@ Comment 	#5b798c
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Python: storage</string>
+			<string>Python: Function, Class</string>
 			<key>scope</key>
 			<string>storage.type.class.python, storage.type.function.python, storage.modifier.global.python</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#ff8973</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python: Function Name</string>
+			<key>scope</key>
+			<string>entity.name.function.python, support.function.magic.python</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#c5e88c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python: Class Name</string>
+			<key>scope</key>
+			<string>entity.name.type.class.python</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python: Arguments Call</string>
+			<key>scope</key>
+			<string>meta.function-call.python variable.language.python</string>
+			<key>settings</key>
+			<dict>
 				<key>foreground</key>
 				<string>#a4cccb</string>
 			</dict>
@@ -1007,7 +1132,7 @@ Comment 	#5b798c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ff8973</string>
+				<string>#a4cccb</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1015,6 +1140,17 @@ Comment 	#5b798c
 			<string>Python: Support.exception</string>
 			<key>scope</key>
 			<string>support.type.exception.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a4cccb</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python 3: @Decorator</string>
+			<key>scope</key>
+			<string>entity.name.function.decorator.python, entity.name.function.decorator.python support.type.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1091,7 +1227,7 @@ Comment 	#5b798c
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby: Variable definition</string>
+			<string>Ruby: @ Variable definition</string>
 			<key>scope</key>
 			<string>punctuation.definition.variable.ruby</string>
 			<key>settings</key>
@@ -1099,7 +1235,7 @@ Comment 	#5b798c
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#678CB1</string>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1137,13 +1273,22 @@ Comment 	#5b798c
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Ruby: Function Parentheses</string>
+			<key>scope</key>
+			<string>punctuation.definition.parameters.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Ruby: Keyword Control</string>
 			<key>scope</key>
 			<string>keyword.control.ruby, keyword.control.def.ruby</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
 				<string>#ff8973</string>
 			</dict>
@@ -1156,7 +1301,7 @@ Comment 	#5b798c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c5e88c</string>
+				<string>#ff8973</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1167,9 +1312,9 @@ Comment 	#5b798c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#a4cccb</string>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1193,20 +1338,9 @@ Comment 	#5b798c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#a4cccb</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Ruby: Special Method</string>
-			<key>scope</key>
-			<string>keyword.other.special-method.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#c5e88c</string>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1217,9 +1351,9 @@ Comment 	#5b798c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#a4cccb</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -1232,7 +1366,7 @@ Comment 	#5b798c
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#ae9ad3</string>
+				<string>#a4cccb</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1243,7 +1377,18 @@ Comment 	#5b798c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ff8973</string>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby: String Interpolation</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1254,7 +1399,7 @@ Comment 	#5b798c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ff8973</string>
+				<string>#a4cccb</string>
 			</dict>
 		</dict>
 		<dict>

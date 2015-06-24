@@ -3,12 +3,17 @@ body {
   padding: 0;
 }
 
-@color: #333;
+$color: #333;
+@mixin hello_world($size) {
+  font-size: $size;
+}
 
 .menu a {
   color: white;
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
+  
+  @include hello_world(18px);
 
   &:hover {
     color: #ccc;

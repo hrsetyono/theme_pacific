@@ -8,13 +8,28 @@ The color scheme is optimized to be distinctive while still being easy on the ey
 Screenshot
 ------------------
 
-![Pacific Dark - HTML](http://cdn.setyono.net/pacific/dark-index.jpg)
+![Pacific Dark - HTML](http://cdn.setyono.net/pacific/sample-html.jpg)
 
-![Pacific Dark - Overlay](http://cdn.setyono.net/pacific/dark-overlay.jpg)
+![Pacific Dark - Overlay](http://cdn.setyono.net/pacific/sample-overlay.jpg)
 
-Comes with highly-requested JSON highlighter:
+More samples:
 
-![Pacific Dark - JSON](http://cdn.setyono.net/pacific/dark-json.jpg)
+- [JSON]((http://cdn.setyono.net/pacific/sample-json.jpg)
+
+- [HTML]((http://cdn.setyono.net/pacific/sample-html.jpg)
+
+- [CSS with Sass]((http://cdn.setyono.net/pacific/sample-css.jpg)
+
+- [JavaScript]((http://cdn.setyono.net/pacific/sample-javascript.jpg)
+
+- [PHP]((http://cdn.setyono.net/pacific/sample-php.jpg)
+
+- [Ruby](http://cdn.setyono.net/pacific/sample-ruby.jpg)
+
+- [Python](http://cdn.setyono.net/pacific/sample-python.jpg)
+
+- [Markdown](http://cdn.setyono.net/pacific/sample-markdown.jpg)
+
 
 Installation
 -------------------
@@ -34,13 +49,6 @@ It will open a text file. Add the following line to the comma-separated list
     "color_scheme": "Packages/Theme - Pacific/Pacific Dark.tmTheme",
 
     "theme": "Pacific Dark.sublime-theme",
-
-Font
----------------
-
-The font used in screenshot is [Fira Code](https://github.com/tonsky/FiraCode). Install the font and add this in your Preferences file:
-
-    "font_face": "Fira Code",
 
 Manual Install
 ----------------
