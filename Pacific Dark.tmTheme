@@ -619,13 +619,24 @@ Comment 	#5b798c
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SCSS: Mixin Parameter</string>
+			<string>SCSS: Param and Declare Variable</string>
 			<key>scope</key>
-			<string>source.scss variable.other.root</string>
+			<string>source.scss variable.other.root, source.scss sass-script-maps variable.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#e7a358</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCSS: Param Default Value</string>
+			<key>scope</key>
+			<string>source.scss sass-script-maps variable.other.value</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>

@@ -1,0 +1,14 @@
+# 1.2.1
+
+Hello and welcome!
+
+Pacific Theme has been updated. It might require you to close and re-open Sublime Text.
+
+Some minor changes:
+
+- Changed some highlight colors on Sass and Python.
+- Fixed the "overlay_scroll_bars" colored in white.
+
+Thank you,
+Henner S
+http://setyono.net

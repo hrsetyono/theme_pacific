@@ -3,7 +3,7 @@ Pacific - Sublime 3 Theme
 
 A theme inspired from Codecademy editor and Google Material design.
 
-The color scheme is optimized to be distinctive while still being easy on the eye.
+The color scheme is optimized to be distinctive while still being easy on the eye. Also fits nicely on Windows 10.
 
 Screenshot
 ------------------
@@ -36,9 +36,9 @@ Installation
 
 1. Press `CTRL + Shift + P` and search for "Install Package".
 
-2. Wait until a new popup came and search for "Pacific", then press Enter.
+2. Wait until a new popup appear and search for "Pacific", then press Enter.
 
-3. Done! Continue to set it up.
+3. Continue to set it up below.
 
 **Setting up the Theme**:
 
@@ -55,7 +55,7 @@ Manual Install
 
 If the Package Control somehow does not work, you can install it manually:
 
-1. Download the file [here](https://github.com/hrsetyono/theme_pacific/releases)
+1. Download the latest file [here](https://github.com/hrsetyono/theme_pacific/releases)
 
 2. In Sublime, go to `Preferences > Browse Package`.
 
@@ -77,3 +77,5 @@ With inspiration from:
 - [Material Theme](https://github.com/equinusocio/material-theme)
 
 - [Neon Color Scheme](https://github.com/MattDMo/Neon-color-scheme)
+
+Also thank you to everyone who have given feedbacks and reported some bugs.
