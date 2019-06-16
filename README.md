@@ -5,8 +5,6 @@ A theme inspired from Codecademy editor and Google Material design.
 
 The color scheme is optimized to be distinctive while still being easy on the eye. Also fits nicely on Windows 10.
 
-Also available for [Atom](https://github.com/hrsetyono/pacific-atom) and [Visual Studio Code](https://github.com/hrsetyono/pacific-vscode)
-
 ## Port
 
 - [Atom »](https://github.com/hrsetyono/pacific-atom)
