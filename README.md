@@ -5,6 +5,8 @@ A theme inspired from Codecademy editor and Google Material design.
 
 The color scheme is optimized to be distinctive while still being easy on the eye. Also fits nicely on Windows 10.
 
+Also available for [Atom](https://github.com/hrsetyono/pacific-atom) and [Visual Studio Code](https://github.com/hrsetyono/pacific-vscode)
+
 ## Port
 
 - [Atom »](https://github.com/hrsetyono/pacific-atom)
@@ -13,27 +15,27 @@ The color scheme is optimized to be distinctive while still being easy on the ey
 Screenshot
 ------------------
 
-![Pacific Dark - HTML](http://cdn.setyono.net/pacific/sample-html.jpg)
+![Pacific Dark - HTML](https://raw.github.com/hrsetyono/cdn/master/theme_pacific/sample-html.jpg)
 
-![Pacific Dark - Overlay](http://cdn.setyono.net/pacific/sample-overlay.jpg)
+![Pacific Dark - Overlay](https://raw.github.com/hrsetyono/cdn/master/theme_pacific/sample-overlay.jpg)
 
 More samples:
 
-- [JSON](http://cdn.setyono.net/pacific/sample-json.jpg)
+- [JSON](https://raw.github.com/hrsetyono/cdn/master/theme_pacific/sample-json.jpg)
 
-- [HTML](http://cdn.setyono.net/pacific/sample-html.jpg)
+- [HTML](https://raw.github.com/hrsetyono/cdn/master/theme_pacific/sample-html.jpg)
 
-- [CSS with Sass](http://cdn.setyono.net/pacific/sample-css.jpg)
+- [CSS with Sass](https://raw.github.com/hrsetyono/cdn/master/theme_pacific/sample-css.jpg)
 
-- [JavaScript](http://cdn.setyono.net/pacific/sample-javascript.jpg)
+- [JavaScript](https://raw.github.com/hrsetyono/cdn/master/theme_pacific/sample-javascript.jpg)
 
-- [PHP](http://cdn.setyono.net/pacific/sample-php.jpg)
+- [PHP](https://raw.github.com/hrsetyono/cdn/master/theme_pacific/sample-php.jpg)
 
-- [Ruby](http://cdn.setyono.net/pacific/sample-ruby.jpg)
+- [Ruby](https://raw.github.com/hrsetyono/cdn/master/theme_pacific/sample-ruby.jpg)
 
-- [Python](http://cdn.setyono.net/pacific/sample-python.jpg)
+- [Python](https://raw.github.com/hrsetyono/cdn/master/theme_pacific/sample-python.jpg)
 
-- [Markdown](http://cdn.setyono.net/pacific/sample-markdown.jpg)
+- [Markdown](https://raw.github.com/hrsetyono/cdn/master/theme_pacific/sample-markdown.jpg)
 
 
 Installation
